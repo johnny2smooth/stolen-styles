@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.center}>
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -20,10 +20,18 @@ export default function Home() {
         <div className={styles.thirteen}>
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
+      </div> */}
+      <div className={styles.main}>
+        <div className={styles.hoverOpacity}>
+          <div className={styles.blurCircle} data-v-1090a973></div>
+          <div className={styles.blurCircle} data-v-1090a973></div>
+          <div className={styles.blurCircle} data-v-1090a973></div>
+          <div className={styles.blurCircle} data-v-1090a973></div>
+        </div>
       </div>
-      <div className={styles.animatedCenter}>
+      {/* <div className={styles.animatedCenter}>
         <p>hello</p>
-      </div>
+      </div> */}
     </main>
   );
 }

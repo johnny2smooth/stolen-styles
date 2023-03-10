@@ -32,6 +32,13 @@
     rgba(255, 255, 255, 0)
   );
 
+  --circle-glow: linear-gradient(
+    to bottom right,
+    rgba(232, 234, 221, 0.92),
+    rgba(1, 255, 90, 0.852),
+    rgba(1, 65, 255, 0.845)
+  );
+
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
@@ -76,6 +83,14 @@
       rgba(232, 234, 221, 0.165),
       rgba(1, 255, 90, 0.852),
       rgba(1, 65, 255, 0.845)
+    );
+
+    --circle-glow: linear-gradient(
+      to bottom right,
+      rgba(237, 68, 26, 0.501),
+      rgba(232, 234, 221, 0.508),
+      rgba(1, 234, 255, 0.372),
+      rgba(1, 65, 255, 0.437)
     );
 
     --tile-start-rgb: 2, 13, 46;
