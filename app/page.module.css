@@ -114,24 +114,28 @@
 .blurCircle[data-v-1090a973]:nth-child(1) {
   top: 150px;
   left: 100px;
+  transform-origin: calc(50%) calc(50%);
   animation: rotate 4.5s linear infinite;
 }
 
 .blurCircle[data-v-1090a973]:nth-child(2) {
   top: 100px;
   left: 100px;
+  transform-origin: calc(50%) calc(50%);
   animation: rotate 4.5s 0.5s linear infinite;
 }
 
 .blurCircle[data-v-1090a973]:nth-child(3) {
   top: 150px;
   left: 150px;
+  transform-origin: calc(50%) calc(50%);
   animation: rotate 4.5s 1s linear infinite;
 }
 
 .blurCircle[data-v-1090a973]:nth-child(4) {
   top: 100px;
   left: 150px;
+  transform-origin: calc(50%) calc(50%);
   animation: rotate 4.5s 1.5s linear infinite;
 }
 
