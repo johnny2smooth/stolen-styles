@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,21 +18,7 @@
     transparent 360deg
   );
 
-  --primary-glow2: conic-gradient(
-    from 180deg at 50% 50%,
-    #ffffff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --circle-glow: linear-gradient(
+  --cloud-glow: linear-gradient(
     to bottom right,
     rgba(232, 234, 221, 0.92),
     rgba(1, 255, 90, 0.852),
@@ -63,34 +49,24 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(
-      rgba(1, 65, 255, 0.961),
-      rgba(255, 1, 81, 0.821)
+    --background-glow: radial-gradient(
+      rgba(1, 208, 255, 0.341),
+      rgba(246, 239, 241, 0.055)
     );
 
-    --tertiary-glow: radial-gradient(
-      rgba(242, 1, 255, 0.961),
-      rgba(221, 255, 1, 0.881)
-    );
-
-    --primary-glow3: radial-gradient(
-      rgba(234, 255, 1, 0.462),
-      rgba(9, 1, 255, 0.491)
-    );
-
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(232, 234, 221, 0.165),
-      rgba(1, 255, 90, 0.852),
-      rgba(1, 65, 255, 0.845)
-    );
-
-    --circle-glow: linear-gradient(
+    --cloud-glow: linear-gradient(
       to bottom right,
       rgba(237, 68, 26, 0.501),
       rgba(232, 234, 221, 0.508),
       rgba(1, 234, 255, 0.372),
       rgba(1, 65, 255, 0.437)
+    );
+
+    --circle-glow: linear-gradient(
+      to bottom right,
+      rgba(232, 234, 221, 0.92),
+      rgba(1, 255, 90, 0.852),
+      rgba(1, 65, 255, 0.845)
     );
 
     --tile-start-rgb: 2, 13, 46;

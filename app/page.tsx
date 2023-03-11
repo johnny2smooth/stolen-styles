@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
+import { Inter } from 'next/font/google';
+import styles from './page.module.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -12,6 +12,11 @@ export default function Home() {
         <div className={styles.blurCircle} data-v-1090a973></div>
         <div className={styles.blurCircle} data-v-1090a973></div>
       </div>
+      <div className={styles.cloud}></div>
+      <div className={styles.cloud}></div>
+      <div className={styles.cloud}></div>
+      <div className={styles.cloud}></div>
+      <div className={styles.cloud}></div>
     </main>
   );
 }
